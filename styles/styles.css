@@ -59,6 +59,14 @@ body {
     
   }
 
+  #email {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: transparent;
+  }
+  
+
   #submit {
     margin-left: 10px;
     background-color: white;
@@ -69,12 +77,33 @@ body {
     width: 125px;
   }
   
+  #submit:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+  }
 
   .text-blocks {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 150px;
+    margin-bottom: 100px;
+    
+  }
+
+  #mission {
+    padding-top: 100px;
+  }
+  #reviews {
+    padding-top: 50px;
   }
   
   .individual-review {
